@@ -1,40 +1,39 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  html {
-    font-family: "Montserrat", sans-serif;
-  }
-  body {
-    background: #eee;
-    padding: 0 16px;
-  }
-  
-  header {
-    background-color: #00cec9;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
-  
-  header h1 {
-    color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
-  }
-  
-  footer {
-    background-color: #00cec9;
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    margin: auto -16px;
-  }
-  
-  footer p {
-    color: #ccc;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0;
+}
+
+footer {
+  background-color: #00cec9;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin: auto;
+}
+
+footer p {
+  color: white;
+}
+
+.register {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.register-section {
+  /* setting the background image to cover the width of the page */
+  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}

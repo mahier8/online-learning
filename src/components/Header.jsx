@@ -1,27 +1,25 @@
 import React from "react";
-import { Navbar, Form, InputGroup, Button, FormControl } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar className="bg-light justify-content-between">
-      <Form inline>
-        <InputGroup>
-          <InputGroup.Prepend>
-            <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-          </InputGroup.Prepend>
-          <FormControl
-            placeholder="Username"
-            aria-label="Username"
-            aria-describedby="basic-addon1"
-          />
-        </InputGroup>
-      </Form>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
-        <Button type="submit">Submit</Button>
-      </Form>
+    <Navbar bg="dark" variant="dark">
+      <Navbar.Brand href="#home">
+        <img
+          alt=""
+          src="https://img.icons8.com/cotton/64/000000/saving-book--v1.png"
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{" "}
+        University of Online
+      </Navbar.Brand>
+      <Nav className="mr-auto">
+        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#features">Features</Nav.Link>
+        <Nav.Link href="#pricing">Pricing</Nav.Link>
+      </Nav>
     </Navbar>
   );
 }
-
 export default Header;
