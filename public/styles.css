@@ -12,7 +12,7 @@ body {
 }
 
 footer {
-  background-color: #00cec9;
+  background-color: #343a40;
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -26,14 +26,16 @@ footer p {
 }
 
 .register {
-  margin-left: 100px;
+  margin-left: 175px;
   margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .register-section {
   /* setting the background image to cover the width of the page */
-  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: #dfe6e9;
+}
+
+.card {
+  margin-top: 70px;
 }
