@@ -1,22 +1,26 @@
 import React from "react";
 import Header from "./Header";
-import Toasty from "./Toast";
+// import Toasty from "./Toast";
 import Title from "./Title";
-import Carousel from "./Carousel";
+import Carousely from "./Carousel";
 import Cardy from "./Card";
 import Footer from "./Footer";
+import Socialy from "./Social";
 
 function App() {
   return (
     <div>
       <Header />
       <Title />
-      <Carousel />
+      <Socialy />
+      <Carousely />
       <Cardy />
-      <Toasty />
+      {/* <Toasty /> */}
+      <br />
       <Footer />
     </div>
   );
 }
 
 export default App;
+
