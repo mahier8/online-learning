@@ -3,8 +3,8 @@ import { Button } from "react-bootstrap";
 
 function Title() {
   return (
-    <div className="container-fluid register-section">
-      <div className="mb-2">
+    <div className="">
+      <div className="mb-2 container-fluid register-section">
         <Button
           variant="primary"
           size="lg"

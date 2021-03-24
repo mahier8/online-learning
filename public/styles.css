@@ -34,12 +34,14 @@ footer p {
 
 .register-section {
   /* setting the background image to cover the width of the page */
-  background-image: url("https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-  background-size: auto;
+  background-image: url("https://images.unsplash.com/photo-1576495199011-eb94736d05d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .card {
-  margin-top: 100px;
+  margin-top: 70px;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -63,9 +65,17 @@ footer p {
 .testimonial-section {
   background-color: #343a40;
   color: white;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .social-section {
-  margin-top: 70px;
+  margin-top: 50px;
+}
+
+.icon-divider {
+  padding-bottom: 40px;
+}
+
+.row-divider {
+  text-align: center;
 }
