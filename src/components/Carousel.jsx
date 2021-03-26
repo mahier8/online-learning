@@ -4,10 +4,10 @@ import Carousel from "react-bootstrap/Carousel";
 function Carousely() {
   return (
     <section className="testimonial-section">
-      <Carousel>
+      <Carousel className="conatiner-fluid carousal-image">
         <Carousel.Item>
           <img
-            className="d-block w-100 carousal-image"
+            className="d-block w-100"
             src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
             alt="First slide"
           />

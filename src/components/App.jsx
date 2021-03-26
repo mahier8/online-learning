@@ -6,15 +6,17 @@ import Carousely from "./Carousel";
 import Cardy from "./Card";
 import Footer from "./Footer";
 import Socialy from "./Social";
+import SearchPage from "./SearchBar";
 
 function App() {
   return (
     <div>
       <Header />
       <Title />
-      <Socialy />
+      <SearchPage />
       <Carousely />
       <Cardy />
+      <Socialy />
       {/* <Toasty /> */}
       <br />
       <Footer />
@@ -23,4 +25,3 @@ function App() {
 }
 
 export default App;
-

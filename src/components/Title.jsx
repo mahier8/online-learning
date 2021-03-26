@@ -1,18 +1,10 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 
 function Title() {
   return (
     <div className="">
-      <div className="mb-2 container-fluid register-section">
-        <Button
-          variant="primary"
-          size="lg"
-          className="btn btn-primary btn-lg register"
-        >
-          Register
-        </Button>{" "}
-      </div>
+      <div className="mb-2 container-fluid register-section"></div>
+      <h4 className="title">The only online university for you.</h4>
     </div>
   );
 }
