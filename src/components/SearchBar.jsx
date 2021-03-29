@@ -4,9 +4,9 @@ import { Button } from "react-bootstrap";
 
 const SearchPage = () => {
   return (
-    <div className="search">
-      <MDBCol md="6" className="searchbar">
-        <div className="input-group md-form form-sm form-1 pl-0">
+    <div className="search ">
+      <MDBCol md="6" className="container searchbar">
+        <div className=" input-group md-form form-sm form-1 pl-0">
           <div className="input-group-prepend">
             <span
               className="input-group-text purple lighten-3"
@@ -26,14 +26,14 @@ const SearchPage = () => {
       <h6 className="message">
         Search through our amazing library of courses or register now to find
         out more.
+        <Button
+          variant="primary"
+          size="lg"
+          className="btn btn-primary btn-lg register-button"
+        >
+          Register
+        </Button>{" "}
       </h6>
-      <Button
-        variant="primary"
-        size="lg"
-        className="btn btn-primary btn-lg register-button"
-      >
-        Register
-      </Button>{" "}
     </div>
   );
 };

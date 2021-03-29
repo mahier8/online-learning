@@ -4,7 +4,7 @@ import { Card, CardDeck, Button } from "react-bootstrap";
 function Cardy() {
   return (
     <div>
-      <CardDeck>
+      <CardDeck className="cardDeck">
         <Card>
           <Card.Img
             variant="top"

@@ -26,6 +26,8 @@ footer p {
   color: white;
 }
 
+/* navbar */
+
 /* This is the title section */
 .register-section {
   /* setting the background image to cover the width of the page */
@@ -43,12 +45,29 @@ footer p {
   }
 }
 
+@media (min-width: 1400px) {
+  .register-section {
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1900px) {
+  .register-section {
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
 .title {
   text-align: center;
 }
 
 /* search bar */
-
 .input-group.md-form.form-sm.form-1 input {
   border: 1px solid #bdbdbd;
   border-top-right-radius: 0.25rem;
@@ -61,19 +80,60 @@ footer p {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .searchbar {
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .searchbar {
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+  }
+}
+
 .search {
   align-content: center;
 }
 
+/* message section */
 .message {
   text-align: center;
   margin-top: 10px;
 }
 
+@media (min-width: 1024px) {
+  .message {
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+/* This is the register button */
 .register-button {
   margin-left: 175px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .register-button {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .register-button {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 /* this ecncompasses the entire carousel */
@@ -95,6 +155,16 @@ footer p {
   }
 }
 
+@media (min-width: 1400px) {
+  .testimonial-section {
+    background-color: white;
+    margin-top: 30px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 /* this is for the width of the carousel */
 .carousal-image {
   -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
@@ -111,11 +181,38 @@ footer p {
   margin-left: auto;
 }
 
-/* this is the social media section */
+@media (min-width: 1024px) {
+  .card {
+    padding: 20px;
+    margin-top: 80px;
+  }
+}
 
+/* this includes all the cards and the background */
+@media (min-width: 1024px) {
+  .cardDeck {
+    padding: 20px;
+  }
+}
+
+/* this is the social media section */
 .social-section {
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .social-section {
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .social-section {
+    margin-top: 20px;
+    margin-bottom: -60px;
+  }
 }
 
 .icon-divider {
