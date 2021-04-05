@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardDeck, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Cardy() {
   return (
@@ -18,7 +19,9 @@ function Cardy() {
               longer.
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Take course!</Button>
+          <Link to="/python">
+            <Button variant="primary">Take course!</Button>
+          </Link>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
