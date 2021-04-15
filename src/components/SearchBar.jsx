@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBIcon } from "mdbreact";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const SearchPage = () => {
   return (
@@ -24,15 +25,17 @@ const SearchPage = () => {
         </div>
       </MDBCol>
       <h6 className="message">
-        Search through our amazing library of courses or register now to find
-        out more.
-        <Button
-          variant="primary"
-          size="lg"
-          className="btn btn-primary btn-lg register-button"
-        >
-          Register
-        </Button>{" "}
+        Search through our amazing library of courses to find more about what we
+        have to offer.
+        <Link to="/registration">
+          <Button
+            variant="primary"
+            size="lg"
+            className="btn btn-primary btn-lg register-button"
+          >
+            Search
+          </Button>{" "}
+        </Link>
       </h6>
     </div>
   );

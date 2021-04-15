@@ -38,7 +38,9 @@ function Cardy() {
               additional content.{" "}
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Take course!</Button>
+          <Link to="/javascript">
+            <Button variant="primary">Take course!</Button>
+          </Link>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
@@ -56,7 +58,9 @@ function Cardy() {
               than the first to show that equal height action.
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Take course!</Button>
+          <Link to="/css">
+            <Button variant="primary">Take course!</Button>
+          </Link>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>

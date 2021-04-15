@@ -1,43 +1,31 @@
 import React from "react";
-import Header from "./Header";
-// import Toasty from "./Toast";
-import Title from "./Title";
-import Carousely from "./Carousel";
-import Cardy from "./Card";
+import NavBar from "./Navbar";
 import Footer from "./Footer";
-import Socialy from "./Social";
-import SearchPage from "./SearchBar";
-import Registration from "./Registration";
-import Python from "./Python";
+import Home from "./pages/Home";
+import Registration from "./pages/Registration";
+import Python from "./pages/Python";
+import Javascript from "./pages/Javascript";
+import Css from "./pages/Css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Title />
-        <SearchPage />
-        <Carousely />
-        <Cardy />
-        <Socialy />
+    <div>
+      <NavBar />
+      <Router>
         {/* <Toasty /> */}
         <br />
-        <Footer />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/registration" component={Registration} />
           <Route path="/python" component={Python} />
+          <Route path="/javascript" component={Javascript} />
+          <Route path="/css" component={Css} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+      <Footer />
+    </div>
   );
 }
-
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-);
 
 export default App;

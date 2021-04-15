@@ -29,16 +29,15 @@ footer p {
 /* navbar */
 
 /* This is the title section */
-.register-section {
-  /* setting the background image to cover the width of the page */
+/* setting the background image to cover the width of the page */
+
+.Hero-styles {
   background-image: url("https://images.unsplash.com/photo-1576495199011-eb94736d05d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
   background-size: cover;
-  height: 180px;
-  width: 100%;
 }
 
 @media (min-width: 1024px) {
-  .register-section {
+  .Hero-styles {
     background-size: auto;
     height: 550px;
     width: 100%;
@@ -46,18 +45,18 @@ footer p {
 }
 
 @media (min-width: 1400px) {
-  .register-section {
+  .Hero-styles {
     background-size: cover;
-    height: 615px;
+    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
   }
 }
 
 @media (min-width: 1900px) {
-  .register-section {
+  .Hero-styles {
     background-size: cover;
-    height: 900px;
+    height: 950px;
     width: 100%;
     background-repeat: no-repeat;
   }
